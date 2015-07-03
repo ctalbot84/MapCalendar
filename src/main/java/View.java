@@ -30,6 +30,7 @@ public class View {
     System.out.println();
     System.out.println("============== " + name + " ==============");
     System.out.println();
+    System.out.println("Balls");
   }
 
   static void display(CalendarList feed) {
