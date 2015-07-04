@@ -166,7 +166,7 @@ public class CalendarSample {
   private static Calendar addCalendar() throws IOException {
     View.header("Add Calendar");
     Calendar entry = new Calendar();
-    entry.setSummary("Calendar for Testing 3");
+    entry.setSummary("Meals Calendar");
     Calendar result = client.calendars().insert(entry).execute();
     View.display(result);
     return result;
